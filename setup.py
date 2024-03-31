@@ -14,7 +14,7 @@ setup(name='html-telegraph-poster',
       author_email='mercuree.lab@gmail.com',
       license='MIT',
       packages=['html_telegraph_poster'],
-      install_requires=['lxml', 'requests', 'requests_toolbelt'],
+      install_requires=['lxml==5.1.1', 'requests', 'requests_toolbelt'],
       classifiers=['Operating System :: OS Independent', 'Programming Language :: Python :: 3',
                    'License :: OSI Approved :: MIT License']
 )
